@@ -30,6 +30,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 # Deploy To Github Page
+Make sure your project as Public (you cann't set project as Private and use Github Page for Free)
+
+
 ```
 ng build --base-href /Resume/
 npx ngh --dir=dist/resume --no-silent
